@@ -1,0 +1,28 @@
+# Build output
+bin/
+obj/
+artifacts/
+TestResults/
+coverage*/
+
+# Editors, IDEs and tools (hidden folders)
+.vs/
+.vscode/
+.idea/
+.claude/
+.cursor/
+*.user
+*.suo
+*.swp
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Secrets and local settings
+.env
+.env.*
+!.env.example
+
+# Never commit a real workbook
+*.xlsx
